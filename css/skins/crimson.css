@@ -1,8 +1,11 @@
+.section-title .title::before,
 .home-section,
 .header {
     background-color: #E4DC79;
 }
 
+
+.section-title .title,
 .mybtn1:hover,
 .mybtn1 {
     color: #E4DC79;
