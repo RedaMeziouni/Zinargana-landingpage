@@ -2,3 +2,8 @@
 .header {
     background-color: #E4DC79;
 }
+
+.mybtn1:hover,
+.mybtn1 {
+    color: #E4DC79;
+}
