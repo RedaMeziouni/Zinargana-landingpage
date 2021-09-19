@@ -386,6 +386,33 @@
 
   .products-section .product-img {
     border-bottom: 1px solid #eee;
+    position: relative;
+  }
+
+  .products-section .product-img .overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: all 0.5s ease;
+    opacity: 0;
+    z-index: 1;
+  }
+
+  .products-section .products-item:hover .product-img .overlay {
+    opacity: 1; 
+  }
+
+  .products-section .product-img .overlay .btn {
+    margin: auto;
+    transform: translateY(100px);
+    transition: all 0.5s ease;
+  }
+
+  .products-section .products-item:hover .product-img .overlay .btn {
+    transform: translateY(0px);
   }
 
   .products-section .product-img img{
