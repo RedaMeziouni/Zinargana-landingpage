@@ -110,6 +110,10 @@
     margin: 0;
   }
 
+  .bg-light {
+    background-color: #f5f5ff;
+  }
+
 
 
   /* Header */
@@ -322,4 +326,9 @@
     position: absolute;
     left: 0;
     top: 0;
+  }
+
+  /* Features section */
+  .features-section {
+    padding: 80px 0 80px;
   }
