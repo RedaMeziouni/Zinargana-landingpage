@@ -373,3 +373,10 @@
   .features-section .features-item:hover p {
     color: #fff;
   }
+
+  /* Products section */
+  .products-section {
+    padding: 80px 0 80px;
+    background-color: #fff;
+
+  }
