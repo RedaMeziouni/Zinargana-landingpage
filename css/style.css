@@ -105,6 +105,7 @@
     padding: 250px 0 200px;
     position: relative;
     z-index: 1;
+    overflow: hidden;
   }
 
   .home-section::before {
@@ -162,12 +163,12 @@
 
   .home-section .bg-shapes div{
     position: absolute;
-    opacity: 0.1;
+    opacity: 0.08;
   }
 
   .home-section .bg-shapes div:nth-child(1) {
-    height: 100%;
-    width: 100%;
+    height: 100px;
+    width: 100px;
     top: 20%;
     left: 20%;
     background-color: #fff;
@@ -175,11 +176,56 @@
     animation: shapeani01 5s linear infinite;
   }
 
+  .home-section .bg-shapes div:nth-child(2) {
+    height: 60px;
+    width: 60px;
+    top: 10%;
+    left: 90%;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    border-left: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    animation: shapeani02 5s linear infinite;
+  }
+
+  .home-section .bg-shapes div:nth-child(3) {
+    height: 80px;
+    width: 80px;
+    top: 60%;
+    left: 60%;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    border-left: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    animation: shapeani02 5s linear infinite;
+  }
+
+  .home-section .bg-shapes div:nth-child(4) {
+    height: 100px;
+    width: 100px;
+    top: 40%;
+    left: calc(0% - 50px);
+    background-color: transparent;
+    border: 5px solid #fff;
+    animation: shapeani02 10s linear infinite;
+  }
+
   @keyframes shapeani01 {
     0%,100% {
-      transform: translateY(0px);
+      transform: translateX(0px);
     }
     50% {
-      transform: translateY(50px);
+      transform: translateX(50px);
+    }
+  }
+
+  @keyframes shapeani02 {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
     }
   }
