@@ -17,6 +17,13 @@
   <link rel="stylesheet" href="css/skins/crimson.css">
   <!-- Favicon -->
   <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+  <!-- Live style switcher - Demo ver !! -->
+  <link rel="stylesheet" title="crismon" class="alternate-style" href="css/skins/crimson.css" disabled>
+  <link rel="stylesheet" title="canva1" class="alternate-style" href="css/skins/canva1.css" disabled>
+  <link rel="stylesheet" title="canva2" class="alternate-style" href="css/skins/canva2..css" disabled>
+  <link rel="stylesheet" title="canva3" class="alternate-style" href="css/skins/canva3.css" disabled>
+  <link rel="stylesheet" title="canva4" class="alternate-style" href="css/skins/canva4.css" disabled>
+  <link rel="stylesheet" href="css/styleSwitcher.css">
 
 </head>
 <body>
@@ -731,6 +738,22 @@
   </footer>
   <!-- Footer section End ! -->
 
+  <!-- Live color Switcher Start -->
+  <div class="style-switcher">
+    <div class="toggle-style-switcher">
+      <i class="fas fa-cog fa-spin"></i>
+    </div>
+    <h5>Style Switcher</h5>
+    <ul class="list-unstyled">
+      <li title="crimson" style="background-color: #E4DC79;" onclick="setActiveStyle('crimson')"></li>
+      <li title="canva1" style="background-color: #79E4A7;" onclick="setActiveStyle('canva1')"></li>
+      <li title="canva2" style="background-color: #7981E4;" onclick="setActiveStyle('canva2')"></li>
+      <li title="canva3" style="background-color: #E479B7;" onclick="setActiveStyle('canva3')"></li>
+      <li title="canva4" style="background-color: #b7e479;" onclick="setActiveStyle('canva4')"></li>
+    </ul>
+  </div>
+  <!-- Live color Switcher End ! -->
+
 
 
 <!-- Jquery -->
@@ -743,5 +766,7 @@
 <script src="js/main.js"></script>
 <!-- Owl Carousel -->
 <script src="js/owl.carousel.min.js"></script>
+<!-- Live color Switcher -->
+<script src="js/styleSwitcher.js"></script>
 </body>
 </html>
