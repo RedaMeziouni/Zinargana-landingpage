@@ -24,6 +24,9 @@ $(document).ready(function(){
       // Add hash (#) to URL when done scrolling (default click behavior)
         window.location.hash = hash;
       });
+
+    //   Navbar hide on Mobile
+      $(".navbar-collapse").collapse("hide");
   
     } // End if
   
