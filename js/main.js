@@ -1,3 +1,11 @@
+// Preloader
+
+$(window).on('load', function(){
+  setTimeout(function(){
+    $(".preloader").fadeOut('slow');
+  }, 600);
+});
+
 $(document).ready(function(){
 
     // Scrollspy

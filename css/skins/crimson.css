@@ -37,6 +37,10 @@
     border-color: #E4DC79;
 }
 
+.preloader .loader {
+    border-right: 5px solid #E4DC79;
+}
+
 
 @media(max-width: 991px){
 .header .navbar #collapsibleNavbar .nav-item .nav-link {
