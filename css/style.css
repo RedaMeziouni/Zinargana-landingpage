@@ -737,3 +737,18 @@
     right: 6px;
     /* background-color: #E4DC79; */
   }
+
+  /* Contact Section */
+
+  .contact-section {
+    background-color: #fff;
+    padding: 80px 0 80px;
+  }
+
+  .contact-section .contact-form .form-control {
+    height: 50px;
+  }
+
+  .contact-section .contact-form .form-control:focus{
+    
+  }
