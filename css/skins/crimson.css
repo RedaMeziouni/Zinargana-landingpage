@@ -1,3 +1,4 @@
+.footer-section,
 .mybtn2,
 .newsletter-section::before,
 .testimonial-section .owl-carousel .owl-nav button.owl-next:hover,
@@ -12,6 +13,7 @@
     background-color: #E4DC79;
 }
 
+.footer-section .footer-social-links a:hover i,
 .contact-section .contact-item h5,
 .contact-section .contact-item .icon i,
 .faq-section .support-text a,
