@@ -12,6 +12,8 @@
     background-color: #E4DC79;
 }
 
+.contact-section .contact-item h5,
+.contact-section .contact-item .icon i,
 .faq-section .support-text a,
 .testimonial-section .owl-carousel .owl-nav button.owl-next,
 .testimonial-section .owl-carousel .owl-nav button.owl-prev,
@@ -25,6 +27,7 @@
     color: #E4DC79;
 }
 
+.contact-section .contact-form .form-control:focus,
 .testimonial-section .client-info img {
     border-color: #E4DC79;
 }
